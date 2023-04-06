@@ -22,7 +22,7 @@ app.use(bodyParser.json())
 app.use(
   cors({
     origin: [
-      "http://localhost:3000"],
+      "https://covid19-app-cc.netlify.app"],
     credentials: true,
   })
 );
